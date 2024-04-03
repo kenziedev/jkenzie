@@ -1,0 +1,7 @@
+version: "3"
+services:
+  jserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: JServer-Docker
